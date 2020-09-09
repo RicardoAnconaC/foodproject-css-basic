@@ -57,6 +57,7 @@ main {
   
 .main-nav__items {
     list-style: none;
+    padding-right: 5rem;
 }
   
 .main-nav__item {
@@ -82,8 +83,7 @@ main {
 /************** FOOTER **************/
 .main-footer {
     background: black;
-    padding: 2rem;
-    /* margin-top: 3rem; */
+    padding: 5rem 0;
 }
 
 .main-footer__links {
@@ -94,8 +94,8 @@ main {
 }
 
 .main-footer__link {
-    display: block;
-    margin: 1rem 0;
+    display: inline-block;
+    margin: 1rem 3rem;
 }
 
 .main-footer__link a {
@@ -111,10 +111,10 @@ main {
 
 /************** BUTTONS **************/
 .button {
-    background: #0e4f1f;
+    background: #ff951c;
     color: white;
     font: inherit;
-    border: 1.5px solid #0e4f1f;
+    border: 1.5px solid #ff951c;
     padding: 0.5rem;
     border-radius: 8px;
     font-weight: bold;
@@ -124,7 +124,7 @@ main {
 .button:hover,
 .button:active {
     background: white;
-    color: #0e4f1f;
+    color: #ff951c;
 }
 
 .button:focus {
