@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+main {
+    min-height: calc(100vh - 3.5rem - 8rem);
+    margin-top: 3.5rem;
+}
+
+.backdrop {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/************** HEADER **************/
+.main-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #ff951c;
+    padding: 0.5rem 1rem;
+    z-index: 1;
+}
+
+.main-header__brand {
+    height: 2.5rem;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    width: 5rem;
+    margin-left: 3rem;
+}
+
+.main-header__brand img {
+    height: 100%;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 140px);
+    vertical-align: middle;
+}
+  
+.main-nav__items {
+    list-style: none;
+}
+  
+.main-nav__item {
+    display: inline-block;
+    margin: 0 1rem;
+}
+  
+.main-nav__item a {
+    text-decoration: none;
+    color: #773000;
+    font-weight: bold;
+    padding: 0.2rem 0;
+}
+  
+.main-nav__item a:hover,
+.main-nav__item a:active {
+    color: white;
+    border-bottom: 5px solid white;
+}
+/************** END HEADER **************/
+
+
+/************** FOOTER **************/
+.main-footer {
+    background: black;
+    padding: 2rem;
+    /* margin-top: 3rem; */
+}
+
+.main-footer__links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.main-footer__link {
+    display: block;
+    margin: 1rem 0;
+}
+
+.main-footer__link a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+    color: #ccc;
+}
+/************** END FOOTER **************/
+
+/************** BUTTONS **************/
+.button {
+    background: #0e4f1f;
+    color: white;
+    font: inherit;
+    border: 1.5px solid #0e4f1f;
+    padding: 0.5rem;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+    background: white;
+    color: #0e4f1f;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.open {
+    display: block !important;
+}
+/************** END BUTTONS **************/
+
+.open {
+    display: block !important;
+}

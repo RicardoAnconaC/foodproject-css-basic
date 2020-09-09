@@ -1,0 +1,122 @@
+main {
+    background: #992400;
+    color: white;
+}
+
+/************** WELCOME **************/
+.welcome {
+    height: 50vh;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 100%, transparent), url("images/welcome.jpg") left 80% top 70%/cover no-repeat border-box, #992400;
+    position: relative;
+}
+
+.welcome h1 {
+    padding-top: 4rem;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.welcome p {
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+/************** END WELCOME **************/
+
+
+/************** HOME-PHRASE **************/
+.home-phrase {
+    padding: 6rem 4rem;
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: oblique;
+}
+/************** END HOME-PHRASE **************/
+
+
+/************** CHAR-LIST **************/
+.char-list {
+    background: #ff951c;
+    text-align: center;
+    padding: 4rem 0;
+}
+.char-list__item {
+    background: #ffbe74;
+    text-align: center;
+    font-size: 2rem;
+    display: inline-block;
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+    margin: 0 4rem;
+}
+
+.char-list__item i {
+    margin-top: 2rem;
+    font-size: 5rem;
+}
+
+.char-list__item p {
+    margin-top: 0.7rem;
+}
+/************** END CHAR-LIST **************/
+
+
+/************** GALLERY **************/
+.gallery {
+    background-color: rgb(255, 53, 87);
+    padding-bottom: .5rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.gallery h3 {
+    padding: 2rem 0;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+}
+
+.gallery__item {
+    height: 20rem;
+    border: 3px solid white;
+    border-radius: 10px;
+    display: inline-block;
+    width: 40%;
+    margin-bottom: 2.5rem;
+}
+
+.gallery__item:first-of-type {
+    background-image: url("images/gallery-1.jpg");
+    background-position: left 50% top 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 2.5rem;
+}
+
+.gallery__item:nth-of-type(2) {
+    background: url("images/gallery-2.jpg");
+    background-position: left 50% top 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery__item:nth-of-type(3) {
+    background: url("images/gallery-3.jpg");
+    background-position: left 50% top 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 2.5rem;
+}
+
+.gallery__item:last-of-type {
+    background: url("images/gallery-4.jpg");
+    background-position: left 50% top 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/************** END GALLEY **************/
