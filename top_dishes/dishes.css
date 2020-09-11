@@ -1,0 +1,94 @@
+main {
+    background: rgb(255, 53, 87);
+    color: white;
+    text-align: center;
+}
+
+/************** WELCOME **************/
+.welcome {
+    height: 50vh;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.452) 100%, transparent), url("../images/welcome.jpg") left 80% top 70%/cover no-repeat border-box, #992400;
+    position: relative;
+}
+
+.welcome h1 {
+    padding-top: 4rem;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.welcome p {
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+/************** END WELCOME **************/
+
+
+/************** GALLERY **************/
+.main-dishes {
+    width: 100%;
+    background-color: white;
+}
+
+.main-dishes h3 {
+    padding: 2rem 0;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    color: rgb(255, 53, 87);
+}
+
+.dishes {
+    margin: auto;
+    max-width: 75rem;
+}
+
+.dishes-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dishes-gallery__item {
+    height: 25rem;
+    border-radius: 10px;
+    width: 35rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.dishes-gallery__item-header {
+    height: 20%;
+    font-weight: bold;
+    font-size: 2.3rem;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 53, 87);
+    line-height: 1;
+}
+
+.dishes-gallery__item-header .place {
+    flex-basis: 30%;
+}
+
+.dishes-gallery__item-header .name {
+    flex-basis: 70%;
+    font-variant: small-caps;
+}
+
+.dishes-gallery__item-image {
+    height: 80%;
+    background-image: url("../images/welcome.jpg");
+    background-position: left 50% top 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/************** END GALLEY **************/
