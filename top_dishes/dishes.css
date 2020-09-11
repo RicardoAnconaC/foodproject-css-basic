@@ -45,13 +45,13 @@ main {
 
 .dishes {
     margin: auto;
-    max-width: 75rem;
+    max-width: 85rem;
 }
 
 .dishes-gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -59,7 +59,7 @@ main {
     height: 25rem;
     border-radius: 10px;
     width: 35rem;
-    margin-bottom: 5rem;
+    margin: 0 2rem 5rem 2rem;
     display: flex;
     flex-direction: column;
 }
@@ -85,10 +85,33 @@ main {
 
 .dishes-gallery__item-image {
     height: 80%;
-    background-image: url("../images/welcome.jpg");
     background-position: left 50% top 50%;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.img-1 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/3d/Portada-chilaquiles-rojos.jpg");
+}
+
+.img-2 {
+    background-image: url("https://www.simplyrecipes.com/wp-content/uploads/2018/07/Guacamole-LEAD-1.jpg");
+}
+
+.img-3 {
+    background-image: url("https://www.halfbakedharvest.com/wp-content/uploads/2020/01/Mushroom-Al-Pastor-Tacos-with-Garlic-Lime-Special-Sauce-1-1.jpg");
+}
+
+.img-4 {
+    background-image: url("https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2017/02/diferenciasentremolenegrorojoyverde.jpg");
+}
+
+.img-5 {
+    background-image: url("https://www.eatingbirdfood.com/wp-content/uploads/2020/01/healthy-chicken-enchiladas-2.jpg");
+    background-position: left 50% top 50%;
+}
+
+.img-6 {
+    background-image: url("https://tastesbetterfromscratch.com/wp-content/uploads/2020/01/Tostadas-5.jpg");
+}
 /************** END GALLEY **************/
