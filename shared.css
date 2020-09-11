@@ -33,13 +33,13 @@ main {
     background: #ff951c;
     padding: 0.5rem 1rem;
     z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .main-header__brand {
     height: 2.5rem;
-    vertical-align: middle;
-    text-align: center;
-    display: inline-block;
     width: 5rem;
     margin-left: 3rem;
 }
@@ -47,31 +47,26 @@ main {
 .main-header__brand img {
     height: 100%;
 }
-
+  
 .main-nav {
-    display: inline-block;
-    text-align: right;
-    width: calc(100% - 140px);
-    vertical-align: middle;
-}
-  
-.main-nav__items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     list-style: none;
-    padding-right: 5rem;
 }
-  
+
 .main-nav__item {
     display: inline-block;
     margin: 0 1rem;
 }
-  
+
 .main-nav__item a {
     text-decoration: none;
     color: #773000;
     font-weight: bold;
     padding: 0.2rem 0;
 }
-  
+
 .main-nav__item a:hover,
 .main-nav__item a:active {
     color: white;
@@ -83,18 +78,19 @@ main {
 /************** FOOTER **************/
 .main-footer {
     background: black;
-    padding: 5rem 0;
+    padding: 4rem 0;
 }
 
 .main-footer__links {
     list-style: none;
     margin: 0;
     padding: 0;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-footer__link {
-    display: inline-block;
     margin: 1rem 3rem;
 }
 
@@ -108,6 +104,7 @@ main {
     color: #ccc;
 }
 /************** END FOOTER **************/
+
 
 /************** BUTTONS **************/
 .button {
@@ -135,6 +132,7 @@ main {
     display: block !important;
 }
 /************** END BUTTONS **************/
+
 
 .open {
     display: block !important;
