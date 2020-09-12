@@ -1,0 +1,123 @@
+main {
+    background: rgb(255, 53, 87);
+    color: white;
+    text-align: center;
+}
+
+/************** WELCOME **************/
+.welcome {
+    height: 50vh;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.452) 100%, transparent), url("../images/welcome.jpg") left 80% top 70%/cover no-repeat border-box, #992400;
+    position: relative;
+}
+
+.welcome h1 {
+    padding-top: 4rem;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.welcome p {
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+/************** END WELCOME **************/
+
+
+/************** GALLERY **************/
+.main-testimonial {
+    padding: 3.5rem 0;
+}
+
+.main-subtitle {
+    font-size: 2.2rem;
+    padding-top: 2rem 0 1rem 0;
+}
+
+.testimonial {
+    font-size: 1.2rem;
+    margin: 3rem auto;
+    max-width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.testimonial__image-container {
+    width: 66%;
+    height: 28rem;
+    max-width: 40rem;
+    box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.3);
+    background-size: cover;
+    background-position: left 50% top 50%;
+}
+
+#customer-1 {
+    background-image: url("https://cdn.forbes.com.mx/2019/01/carrillo.jpg");
+}
+
+#customer-2 {
+    background-image: url("https://pbs.twimg.com/media/DiXjfAZWsAA4Da3.jpg");
+    background-position: top;
+}
+
+#customer-3 {
+    background-image: url("https://cdn.foodandwineespanol.com/2019/06/cosmeaguilar_destacada.jpg");
+}
+
+#customer-4 {
+    background-image: url("https://loff.it/wp-content/uploads/2016/05/loffit-chef-roberto-ruiz-mexico-a-fuego-lento-en-el-punto-mx-01.jpg");
+    background-position: left 50% top 25%;
+}
+
+#customer-5 {
+    background-image: url("https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AArTagz.img?h=0&w=600&m=6&q=60&u=t&o=f&l=f&x=1267&y=1010");
+    background-position: left 50% top 25%;
+}
+
+.testimonial__info {
+text-align: right;
+padding: 0.9rem;
+width: 33%;
+}
+
+#customer-2.testimonial {
+text-align: right;
+}
+
+#customer-2 .testimonial__info {
+text-align: left;
+}
+
+.testimonial__name {
+margin: 0.2rem;
+color: white;
+font-size: 2rem;
+}
+
+.testimonial__subtitle {
+margin: 0;
+font-size: 1.1rem;
+color: #ccc;
+}
+
+.testimonial__subtitle a {
+color: inherit;
+text-decoration: none;
+}
+
+.testimonial__subtitle a:hover,
+.testimonial__subtitle a:active {
+color: #7a7a7a;
+}
+
+.testimonial__text {
+margin: 0.2rem;
+}
+
+/************** END GALLEY **************/
