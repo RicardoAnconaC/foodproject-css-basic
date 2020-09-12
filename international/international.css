@@ -63,6 +63,7 @@ main {
     display: flex;
     flex-direction: column;
     position: relative;
+    overflow: hidden;
 }
 
 .chains-gallery__item-drop {
@@ -74,6 +75,7 @@ main {
     justify-content: center;
     align-items: center;
 }
+
 
 .chains-gallery__item-header {
     height: 20%;

@@ -53,6 +53,7 @@ main {
     align-items: center;
     justify-content: flex-end;
     list-style: none;
+    margin-bottom: 0;
 }
 
 .main-nav__item {
@@ -102,6 +103,13 @@ main {
 .main-footer__link a:hover,
 .main-footer__link a:active {
     color: #ccc;
+}
+
+@media (max-width: 40rem) {
+    .main-footer__links {
+        display: flex;
+        flex-direction: column;
+    }
 }
 /************** END FOOTER **************/
 
@@ -156,3 +164,4 @@ main {
     color: white;
     border-bottom: 2px solid white;
 }
+
