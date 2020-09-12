@@ -137,3 +137,22 @@ main {
 .open {
     display: block !important;
 }
+
+.copy-rights {
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.copy-rights a {
+    text-decoration: none;
+    color: rgb(218, 218, 218);
+    font-weight: bold;
+    padding: 0.2rem 0;
+}
+
+.copy-rights a:hover,
+.copy-rights a:active {
+    color: white;
+    border-bottom: 2px solid white;
+}
