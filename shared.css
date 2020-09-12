@@ -105,11 +105,12 @@ main {
     color: #ccc;
 }
 
-@media (max-width: 40rem) {
-    .main-footer__links {
-        display: flex;
-        flex-direction: column;
-    }
+.mobile-nav {
+    display: none;
+}
+
+.toggle-button {
+    display: none;
 }
 /************** END FOOTER **************/
 
@@ -141,11 +142,6 @@ main {
 }
 /************** END BUTTONS **************/
 
-
-.open {
-    display: block !important;
-}
-
 .copy-rights {
     color: white;
     text-align: center;
@@ -165,3 +161,91 @@ main {
     border-bottom: 2px solid white;
 }
 
+@media (max-width: 40rem) {
+    .toggle-button {
+        display: inline-block;
+        width: 3rem;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding-top: 0;
+        padding-bottom: 0;
+        vertical-align: middle;
+        }
+        
+    .toggle-button:focus {
+        outline: none;
+    }
+    
+    .toggle-button__bar {
+        width: 100%;
+        height: 0.2rem;
+        background: black;
+        display: block;
+        margin: 0.6rem 0;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .main-header {
+        justify-content: flex-start;
+    }
+
+    .main-header__brand {
+        margin-left: 0;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+    }
+
+    .mobile-nav {
+        display: block;
+        position: fixed;
+        z-index: 101;
+        top: 0;
+        left: 0;
+        background: rgb(255, 148, 26, 0.2);
+        width: 80%;
+        height: 100vh;
+    }
+
+    #toggle-nav {
+        position: absolute;
+        right: 2rem;
+        top: 0.5rem;
+    }
+    
+    .mobile-nav__items {
+        width: 90%;
+        height: 100%;
+        list-style: none;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .mobile-nav__item {
+        margin: 2rem 0;
+    }
+    
+    .mobile-nav__item a {
+        font-size: 1.5rem;
+    }
+
+    .mobile-nav__item a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        padding: 0.2rem 0;
+    }
+
+    .main-footer__links {
+        display: flex;
+        flex-direction: column;
+    }
+}
