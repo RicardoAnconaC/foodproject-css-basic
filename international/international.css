@@ -90,11 +90,13 @@ main {
 
 .chains-gallery__item-header .place {
     flex-basis: 30%;
+    margin: 0;
 }
 
 .chains-gallery__item-header .name {
     flex-basis: 70%;
     font-variant: small-caps;
+    margin: 0;
 }
 
 .chains-gallery__item-image {
@@ -125,3 +127,36 @@ main {
 }
 
 /************** END GALLEY **************/
+
+@media (max-width: 40rem) {
+    .chains-gallery__item {
+        height: 30rem;
+        border-radius: 10px;
+        width: 35rem;
+        margin: 0 2rem 5rem 2rem;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+    }  
+    
+    .chains-gallery__item-header {
+        height: 30%;
+        font-weight: bold;
+        font-size: 2.3rem;
+        display: flex;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        line-height: 1;
+        color: rgb(184, 53, 53)
+    }
+    
+    .chains-gallery__item-header .place {
+        flex-basis: 30%;
+    }
+    
+    .chains-gallery__item-header .name {
+        flex-basis: 70%;
+        font-variant: small-caps;
+    }
+}

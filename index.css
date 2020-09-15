@@ -52,7 +52,7 @@ main {
     border-radius: 50%;
     width: 12rem;
     height: 12rem;
-    margin: 0 4rem;
+    margin: 1.5rem 4rem;
     color: #ff951c;
 }
 
@@ -68,31 +68,31 @@ main {
 
 
 /************** GALLERY **************/
-.gallery {
-    background-color: rgb(255, 53, 87);
-    padding-bottom: .5rem;
-    padding-top: 1rem;
-    text-align: center;
-}
 
-.gallery h3 {
+h3 {
     padding: 2rem 0;
     text-align: center;
     font-family: 'Dancing Script', cursive;
     font-size: 4rem;
 }
 
-.gallery-row {
-    margin: 3rem 0;
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 75rem;
 }
+
 .gallery__item {
     height: 20rem;
     border: 3px solid white;
     border-radius: 10px;
     display: inline-block;
     width: 40%;
-    min-width: 315px;
-    max-width: 530px;
+    min-width: 24.2rem;
+    margin: 0 1rem 2rem 1rem;
 }
 
 #gal1 {
@@ -100,7 +100,6 @@ main {
     background-position: left 50% top 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-right: 2.5rem;
 }
 
 #gal2 {
@@ -115,7 +114,6 @@ main {
     background-position: left 50% top 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-right: 2.5rem;
 }
 
 #gal4 {

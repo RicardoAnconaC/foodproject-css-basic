@@ -57,6 +57,8 @@ main {
     background-position: left 50% top 50%;
 }
 
+
+
 #customer-1 {
     background-image: url("https://cdn.forbes.com.mx/2019/01/carrillo.jpg");
 }
@@ -120,4 +122,20 @@ color: #7a7a7a;
 margin: 0.2rem;
 }
 
+@media (max-width: 40rem) {
+    .testimonial {
+        flex-direction: column;
+        margin: 5rem 0;
+    }
+
+    .testimonial__image-container {
+        width: 100%;
+        order: 2;
+    }
+
+    .testimonial__info {
+        width: 100%;
+        order: 1;
+    }
+}
 /************** END GALLEY **************/
