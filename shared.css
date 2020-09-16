@@ -26,6 +26,59 @@ main {
     transition: opacity 0.2s linear;
 }
 
+#carouselExampleCaptions {
+    height: 25rem;
+    text-align: center;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item {
+    height: 100%;
+    background-size: cover;
+    background-position: left 50% top 50%;
+}
+
+.carousel-control-next {
+    right: 4%;
+}
+
+.item-filter {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.carousel-item__title {
+    text-align: center;
+    transform: translateY(14rem);
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+#car-item-1 {
+    background-image: url('images/welcome.jpg');
+}
+
+#car-item-2 {
+    background-image: url('images/gallery-1.jpg');
+}
+
+#car-item-3 {
+    background-image: url('images/gallery-2.jpg');
+}
+
+@media (min-width: 40rem) {
+    .carousel-item__title {
+        font-size: 3rem;
+    }
+}
+
 /************** HEADER **************/
 .main-header {
     width: 100%;
