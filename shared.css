@@ -43,9 +43,6 @@ main {
     background-position: left 50% top 50%;
 }
 
-.carousel-control-next {
-    right: 4%;
-}
 
 .item-filter {
     position: absolute;
